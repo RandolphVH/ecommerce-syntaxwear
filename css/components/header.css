@@ -13,3 +13,12 @@
     align-items: center;
     padding: 20px 28px;
 }
+
+.logo img {
+    height: 40px;
+}
+
+.nav-center ul {
+    display: flex;
+    gap: 2.5rem;
+}
