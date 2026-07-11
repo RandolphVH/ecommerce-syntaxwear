@@ -9,21 +9,27 @@
 }
 
 .category-card {
-    background-color: #7c3aed;
+    position: relative;
     width: 277px;
     height: 460px;
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .category-name {
-    font-size: 1.25rem;
-    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     text-align: center;
-    font-weight: 400;
-    color: #ffffff;
 }
 
 .casual {
