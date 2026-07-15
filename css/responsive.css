@@ -1,0 +1,39 @@
+/* responsive.css */
+
+@media (min-width: 1280px) {
+  main {
+    max-width: 1200px;
+  }
+
+  .header {
+    width: 1160px;
+  }
+
+  .hero-overlay {
+    padding: 0 6rem;
+  }
+
+  .hero-content {
+    max-width: 360px;
+  }
+
+  .footer-content {
+    max-width: 1360px;
+    padding: 40px 80px;
+  }
+
+  .newsletter-form input {
+    width: 344px;
+  }
+
+  .category-card {
+    width: 277px;
+    height: 460px;
+  }
+
+  .grid-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 235px);
+    gap: 1.875rem;
+  }
+}
