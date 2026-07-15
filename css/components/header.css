@@ -4,13 +4,13 @@
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    width: 1160px;
+    width: 1240px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.625rem 1.25rem;
+    padding: 0.450rem 1.25rem;
     background-color: #ffffff;
 }
 
