@@ -6,7 +6,7 @@
   }
 
   .header {
-    width: 1160px;
+    max-width: 1155px;
   }
 
   .hero-overlay {
