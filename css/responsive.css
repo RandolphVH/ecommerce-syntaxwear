@@ -9,6 +9,16 @@
     max-width: 1155px;
   }
 
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+  }
+
   .hero-overlay {
     padding: 0 6rem;
   }
