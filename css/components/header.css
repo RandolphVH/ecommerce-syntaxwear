@@ -52,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 75%;
 }
 
 .menu-toggle {
@@ -62,7 +62,9 @@
 .menu-icon {
     width: 30px;
     height: 30px;
-    display: block;
+    display: none;
+    cursor: pointer;
+    z-index: 1001;
 }
 
 .menu-icon img {
