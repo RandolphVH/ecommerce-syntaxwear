@@ -27,8 +27,8 @@
   }
 
   .category-card {
-    width: 277px;
-    height: 460px;
+    max-width: 277px;
+    max-height: 460px;
   }
 
   .grid-section {
