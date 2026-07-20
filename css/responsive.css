@@ -2,16 +2,19 @@
 
 @media (max-width: 1280px) {
   main {
-    /* max-width: 1200px; */
     padding: 0.625rem;
   }
 
   .header {
-    top: 4%;
-    max-width: 96%;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 2rem);
+    max-width: 1240px;
+    padding: 0.75rem 1rem;
   }
 
-  .menu-icon {
+  .header .menu-icon {
     display: block;
   }
 
@@ -85,8 +88,51 @@
 
 @media (max-width:768px) {
   .header {
-    top: 2.5%;
-    max-width: 70%;
-    left: 38.3%;
+    top: 1rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    width: auto;
+    max-width: none;
+    transform: none;
+    padding: 0.75rem 1rem;
+    box-sizing: border-box;
+  }
+
+  .hero-section {
+    height: 660px;
+    background-image: url(../images/banners/hero-mobile.jpg);
+    background-size: cover;
+  }
+
+  .hero-overlay {
+    padding: 0 1.25rem;
+  }
+
+  .hero-content .hero-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-content .hero-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .hero-content {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    min-width: 140px;
+    width: min(140px, 100%);
+    height: auto;
+    padding: 0.75rem 1rem;
   }
 }
