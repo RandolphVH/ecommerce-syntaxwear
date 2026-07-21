@@ -156,23 +156,39 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, auto);
     grid-template-areas:
-        "highlight highlight" 
-        "sneaker-white sneaker-white"
-        "model sneaker-color"
-        "model sneaker-silver"
-        "sneaker-purple sneaker-purple";
+      "highlight highlight"
+      "sneaker-white sneaker-white"
+      "model sneaker-color"
+      "model sneaker-silver"
+      "sneaker-purple sneaker-purple";
     gap: 0.625rem;
-}
+    margin-bottom: 10px;
+  }
 
-.highlight{
-  height: 434px;
-}
+  .highlight {
+    height: 434px;
+  }
 
-.sneaker-white, .sneaker-purple{
-  height: 190px;
-}
+  .sneaker-white,
+  .sneaker-purple {
+    height: 190px;
+  }
 
-.model{
-  height: 371px;
+  .model {
+    height: 371px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 26px 40px 20px;
+  }
+
+  .footer-social {
+    margin-bottom: 80px;
+  }
+
+  .footer-nav ul {
+    flex-direction: column;
 }
 }
