@@ -16,6 +16,8 @@
 
 .logo img {
     height: 48px;
+    z-index: 1;
+    position: relative;
 }
 
 .nav-center ul {
